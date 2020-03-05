@@ -1,0 +1,60 @@
+body {
+  font-family: "Caveat", cursive, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+/* header section */
+
+.header h1 {
+  background-color: #87ceeb;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.header h2 {
+  background-color: #f5f5f5;
+  font-size: 2rem;
+}
+
+/* container section */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.week {
+  display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 6rem;
+  height: 6rem;
+  background-color: #f0e68c;
+  border: 1px solid white;
+  display: flex;
+}
+
+.day.square {
+  background-color: #b2d6ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day h3 {
+  text-transform: uppercase;
+}
+.reminders {
+  display: flex;
+  flex-grow: 2;
+  width: 100%;
+}
